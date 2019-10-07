@@ -1,19 +1,79 @@
+/*Custom Style Sheet*/
+
 * {
   margin: 100;
   padding: 0;
 }
 
-body {
-  background-color: #ffdcc4;
-}
-
+/*Type Selectors*/
 header {
-   text-align:center;
-   background-color: #6D7993;"
-
+  text-align:center;
+  background-color: #8dc9b4;
+  color: #ffffff;
 }
 
+body {
+  background-color: #e8f5ff;
+  font-family: "Palatino", serif;
+  font-size: 17px;
+}
+
+h1 {
+  position: absolute;
+  top: 0px; left: 50px;
+  font-family: "Tratatello", fantasy;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+/*Class Selectors*/
 .body-details {
-  background-color: #D5D5D5;
   text-align: center;
 }
+
+.img-details {
+  border:1px solid #e3e3e3
+}
+
+.left-position {
+  float: left;
+  padding: 0;
+ }
+
+ /*ID Selectors*/
+#header-details {
+  font-family: "Palatino", serif;
+  position: relative;
+  top: -10px; left: 10px;
+}
+
+ /*Attribute Selectors*/
+
+
+
+
+/*Pseudo-Type Selectors*/
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #b3b3b3;
+}
+
+/*Combinators*/
+header a {
+  color: #ffffff;
+}
+
+p a {
+  color: #000000;
+}
+
+
+
+
+
+
