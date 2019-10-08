@@ -28,9 +28,17 @@ table, th, td {
   border: 1px solid black;
 }
 
+footer {
+  font-size: 13px;
+}
+
 /*Class Selectors*/
 .body-details {
-  text-align: center;
+  text-align: center; /* should probably get rid of this */ 
+}
+
+.body-details.box {
+  border: 1px solid black;
 }
 
 .img-details {
@@ -40,7 +48,7 @@ table, th, td {
 .left-position {
   float: left;
   padding: 0;
- }
+}
 
  /*ID Selectors*/
 #header-details {
