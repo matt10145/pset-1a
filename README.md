@@ -12,6 +12,6 @@ make all page styles consistent |
 add some photos of car giveaways (natalie, heath, alex)
 add photos in the vlogs (corinna x todd, dom)
 
+add margins to photos
 Questions:
 My lists have lost their bullets...?
-

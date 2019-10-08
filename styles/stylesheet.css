@@ -1,7 +1,7 @@
 /*Custom Style Sheet*/
 
 * {
-  margin: 100;
+  margin: 20;
   padding: 0;
 }
 
@@ -10,6 +10,10 @@ header {
   text-align:center;
   background-color: #8dc9b4;
   color: #ffffff;
+}
+
+a {
+  color: #000000;
 }
 
 body {
@@ -32,9 +36,13 @@ footer {
   font-size: 13px;
 }
 
+ul, ol {
+  margin-left: 3%;
+}
+
 /*Class Selectors*/
 .body-details {
-  text-align: center; /* should probably get rid of this */ 
+  text-align: center; /* should probably get rid of this */
 }
 
 .body-details.box {
@@ -47,6 +55,14 @@ footer {
 
 .left-position {
   float: left;
+  padding: 0;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.right-position {
+  position: relative;
+  left: 75px;
   padding: 0;
 }
 
@@ -63,10 +79,6 @@ footer {
 
 
 /*Pseudo-Type Selectors*/
-a {
-  color: #000000;
-}
-
 a:hover {
   color: #b3b3b3;
 }
@@ -79,9 +91,3 @@ header a {
 p a {
   color: #000000;
 }
-
-
-
-
-
-
