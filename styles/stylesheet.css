@@ -1,4 +1,4 @@
-/*Custom Style Sheet*/
+/*External Style Sheet*/
 
 * {
   margin: 20;
@@ -10,6 +10,7 @@ header {
   text-align:center;
   background-color: #8dc9b4;
   color: #ffffff;
+  border-bottom: 5px solid #ffb4b4;
 }
 
 a {
@@ -19,7 +20,8 @@ a {
 body {
   background-color: #e8f5ff;
   font-family: "Palatino", serif;
-  font-size: 17px;
+  font-size: 20px;
+  margin-top: 120px;
 }
 
 h1 {
@@ -34,6 +36,10 @@ table, th, td {
 
 footer {
   font-size: 13px;
+  color: #ffffff;
+  background-color: #8dc9b4;
+  text-align: right;
+  border-top: 5px solid #ffb4b4;
 }
 
 ul, ol {
@@ -41,16 +47,27 @@ ul, ol {
 }
 
 /*Class Selectors*/
-.body-details {
-  text-align: center; /* should probably get rid of this */
+.fixed-header {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 }
 
-.body-details.box {
-  border: 1px solid black;
+.button-detail {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2px 4px 2px 4px;
+  font-size: 20px;
+  margin: 10px;
+  border-top: 2px solid #ffe0e0;
+  border-right: 2px solid #ffe0e0;
+  border-bottom: 2px solid #ffe0e0;
+  border-left: 2px solid #ffe0e0;
 }
 
-.img-details {
-  border:1px solid #e3e3e3
+.body-detail {
+  text-align: center; 
 }
 
 .left-position {
@@ -66,26 +83,41 @@ ul, ol {
   padding: 0;
 }
 
- /*ID Selectors*/
+/*ID Selectors*/
 #header-details {
   font-family: "Palatino", serif;
   position: relative;
-  top: -10px; left: 10px;
+  top: -10px; left: 30px;
 }
 
- /*Attribute Selectors*/
+#img-detail {
+  border:1px solid #cecece
+}
 
+#data-background {
+  background-color: #fff2f2;
+}
 
+#caption-font {
+  font-size: 14px;
+}
 
+/*Attribute Selectors*/
+a[href="https://www.ucvts.tec.nj.us"]
+a[href="https://www.ucvts.tec.nj.us/Page/471"] {
+  font-style: italic;
+}
 
 /*Pseudo-Type Selectors*/
 a:hover {
-  color: #b3b3b3;
+  color: #c4c4c4;
+  font-weight: bold;  
 }
 
 /*Combinators*/
 header a {
   color: #ffffff;
+  /*change font size in .button-detail*/
 }
 
 p a {
