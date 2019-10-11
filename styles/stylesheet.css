@@ -1,4 +1,8 @@
 /*External Style Sheet*/
+@font-face {
+  font-family: "Tratatallo";
+  src: url(fontofallknowledge.woff);
+  }
 
 * {
   margin: 20;
@@ -103,8 +107,8 @@ ul, ol {
 }
 
 /*Attribute Selectors*/
-a[href="https://www.ucvts.tec.nj.us"]
-a[href="https://www.ucvts.tec.nj.us/Page/471"] {
+a [href="https://www.ucvts.tec.nj.us"]
+a [href="https://www.ucvts.tec.nj.us/Page/471"] {
   font-style: italic;
 }
 
