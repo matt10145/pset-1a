@@ -1,5 +1,4 @@
 /*External Style Sheet*/
-@import url('https://fonts.googleapis.com/css?family=Tratatello');
 
 * {
   margin: 20;
@@ -88,7 +87,7 @@ ul, ol {
 #header-details {
   font-family: "Palatino", serif;
   position: relative;
-  top: -10px; left: 30px;
+  top: -10px; left: 380px;
 }
 
 #img-detail {
