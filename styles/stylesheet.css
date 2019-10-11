@@ -1,8 +1,5 @@
 /*External Style Sheet*/
-@font-face {
-  font-family: "Tratatallo";
-  src: url(fontofallknowledge.woff);
-  }
+@import url('https://fonts.googleapis.com/css?family=Tratatello);
 
 * {
   margin: 20;
